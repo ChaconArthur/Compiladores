@@ -2,10 +2,12 @@ package Tokens;
 
 /**
  *
- * @author chacon
+ * @author arthurchacon
  * 
  */
 public class Token {
+ 
+    public static final String assignment = ":=";
 
     public static final String[] reservedWords = {
             "if", "then", "end", "boolean", "procedure", "program", "integer",
@@ -29,8 +31,7 @@ public class Token {
     public static final char[] numbers = {
             '0','1','2','3','4','5','6','7','8','9'
     };
-    public static final String assignment = ":=";
-
+    
     public static final String[] relationalOperators = {
             "=", "<>", "<=", ">=", ">", "<"
     };
