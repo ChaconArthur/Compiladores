@@ -3,6 +3,7 @@ package compilador;
 /**
  *
  * @author chacon
+ * 
  */
 public class Token {
 
