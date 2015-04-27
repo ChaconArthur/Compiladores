@@ -3,7 +3,7 @@ package Tokens;
 /**
  *
  * @author arthurchacon
- * 
+ *      Token: class that have a database of all valid types of characteres/tokens;
  */
 public class Token {
  
