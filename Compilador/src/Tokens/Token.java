@@ -7,6 +7,40 @@ package Tokens;
  */
 public class Token {
  
+    private int Type;
+    private String Token;
+    private long Line;
+
+    public int getType() {
+        return Type;
+    }
+
+    public void setType(int Type) {
+        this.Type = Type;
+    }
+
+    public String getToken() {
+        return Token;
+    }
+
+    public void setToken(String Token) {
+        this.Token = Token;
+    }
+
+    public long getLine() {
+        return Line;
+    }
+
+    public void setLine(long Line) {
+        this.Line = Line;
+    }
+
+    public Token(int Type, String Token, long Line) {
+        this.Type = Type;
+        this.Token = Token;
+        this.Line = Line;
+    }
+            
     public static final String assignment = ":=";
 
     public static final String[] reservedWords = {
