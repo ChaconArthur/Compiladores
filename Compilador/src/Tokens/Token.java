@@ -80,4 +80,9 @@ public class Token {
     };
 
     public static final char newLine = '\n';
+    
+    /*public boolean isToken (String str){
+        
+        
+    }*/
 }
